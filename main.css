@@ -1,0 +1,32 @@
+* {
+  color: #ffffff;
+  text-align: center;
+}
+
+body {
+  background-image: url("code.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+h1,
+h2 {
+  font-family: "Knewave", "Times New Roman", Times, serif, cursive !important;
+}
+
+h1 {
+  font-size: 10vh !important;
+}
+
+h2 {
+  font-size: 8vh !important;
+}
+
+.card {
+  background-color: rgba(00, 00, 00, 0.8) !important;
+  font-family: "Carter One", cursive;
+}
+
+.btn {
+  bottom: 3px;
+}
