@@ -9,17 +9,29 @@ body {
   background-position: center;
 }
 
-h1,
-h2 {
-  font-family: "Knewave", "Times New Roman", Times, serif, cursive !important;
-}
-
 h1 {
+  font-family: "Knewave", "Times New Roman", Times, serif, cursive !important;
+
   font-size: 10vh !important;
 }
 
-h2 {
-  font-size: 8vh !important;
+h5 {
+  font-size: 4vh !important;
+}
+
+h5:hover {
+  transform: rotate(5deg);
+}
+.card:hover {
+  box-shadow: 3vh, 3vh, 3vh, 3vh #ffffff;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+h6 {
+  font-size: 2.8vh !important;
 }
 
 .card {
@@ -29,4 +41,15 @@ h2 {
 
 .btn {
   bottom: 3px;
+}
+
+p {
+  font-size: 2.5vh !important;
+  text-align: justify;
+}
+
+footer {
+  background-color: black;
+  margin: 0.1px !important;
+  margin-top: 20px !important;
 }
