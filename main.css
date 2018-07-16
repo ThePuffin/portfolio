@@ -11,8 +11,17 @@ body {
 
 h1 {
   font-family: "Knewave", "Times New Roman", Times, serif, cursive !important;
+  margin-top: 8vh !important;
+  margin-bottom: 6vh !important;
+  font-size: 8vh !important;
+}
 
-  font-size: 10vh !important;
+h2 {
+  font-size: 4vh !important;
+}
+
+h3 {
+  font-size: 3vh !important;
 }
 
 h5 {
@@ -25,6 +34,23 @@ h5:hover {
 .card:hover {
   box-shadow: 3vh, 3vh, 3vh, 3vh #ffffff;
 }
+img {
+  position: relative;
+  margin-top: 8px;
+  border: 2px solid lightgray !important;
+}
+
+.far {
+  position: absolute;
+  top: 5% !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  color: transparent;
+}
+
+.far:hover {
+  color: lightgrey;
+}
 
 img:hover {
   transform: scale(1.05);
@@ -36,11 +62,11 @@ h6 {
 
 .card {
   background-color: rgba(00, 00, 00, 0.8) !important;
-  font-family: "Carter One", cursive;
+  font-family: "Titillium Web", cursive;
 }
 
 .btn {
-  bottom: 3px;
+  margin-bottom: 8px;
 }
 
 p {
@@ -52,4 +78,17 @@ footer {
   background-color: black;
   margin: 0.1px !important;
   margin-top: 20px !important;
+  margin-bottom: 15px !important;
+  height: 30px;
+  width: 100%;
+}
+
+a {
+  color: lightgray !important;
+}
+
+footer a:hover {
+  transform: scale(1.2);
+  text-decoration: none !important;
+  font-weight: bolder !important;
 }
